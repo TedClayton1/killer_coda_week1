@@ -43,15 +43,26 @@
 # Print area
 # print(f"The area of the rectangle is {area}")
 
-# Ask for three numbers
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = float(input("Enter third number: "))
+# # Ask for three numbers
+# num1 = float(input("Enter first number: "))
+# num2 = float(input("Enter second number: "))
+# num3 = float(input("Enter third number: "))
 
-# Calculate sum and average
-total_sum = num1 + num2 + num3
-average = total_sum / 3
+# # Calculate sum and average
+# total_sum = num1 + num2 + num3
+# average = total_sum / 3
+
+# # Print results
+# print(f"Sum: {total_sum}")
+# print(f"Average: {average}")
+
+# Ask for number
+center_num = int(input("Enter a whole number: "))
+
+# Calculate neighbors
+previous_num = center_num - 1
+next_num = center_num + 1
 
 # Print results
-print(f"Sum: {total_sum}")
-print(f"Average: {average}")
+print(f"The previous number is {previous_num} and the next number is {next_num}")
+
