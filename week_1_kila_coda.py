@@ -3,14 +3,14 @@
 # birth_year = current_year - my_age
 # print(birth_year)
 
-username = input("What is your name? ")
-emotion = input("How are you feeling today? ")
-print(f"Hello, {username} is feeling {emotion} today.")
+# username = input("What is your name? ")
+# emotion = input("How are you feeling today? ")
+# print(f"Hello, {username} is feeling {emotion} today.")
 
-name = "Ted"
+# name = "Ted"
 
-print(f"Pleased to meet you {name}.")
-print(f"{name} is feeling happy today!")
+# print(f"Pleased to meet you {name}.")
+# print(f"{name} is feeling happy today!")
 
 
 
@@ -23,3 +23,22 @@ print(f"{name} is feeling happy today!")
 
 # # Print the result
 # print(result)
+
+# # Ask for the square of a number
+# number_input = int(input("Enter a number to find its square: "))
+
+# # Calculate the square
+# square = number_input * number_input
+
+# # Print custom sentence
+# print(f"The square of {number_input} is {square}.")
+
+# Ask for dimensions
+length = float(input("Enter the length of the rectangle: "))
+height = float(input("Enter the height of the rectangle: "))
+
+# Calculate area
+area = length * height
+
+# Print area
+print(f"The area of the rectangle is {area}")
